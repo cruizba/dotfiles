@@ -80,7 +80,7 @@ function install_vscode() {
     sudo apt install code -y
 
     for ext in "${VSCODE_EXT[@]}"; do
-        code --install-extension "${ext}"
+        code --install-extension "${ext}" --force
     done
 
     mkdir -p ~/.config/Code/User
@@ -89,7 +89,7 @@ function install_vscode() {
     cp .config/Code/User/keybindings.json ~/.config/Code/User/keybindings.json
 
     # Replace home directory
-    sed -i "s|ENV_HOME|$HOME|g" ~/.config/Code/User/settings.json
+    sed -i "s|{{ENV_HOME}}|$HOME|g" ~/.config/Code/User/settings.json
 }
 
 install_vscode
