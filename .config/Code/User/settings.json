@@ -77,4 +77,6 @@
     "vim.handleKeys": {
         "<C-p>": false
     },
+    "vim.smartRelativeLine": true,
+    "editor.cursorSurroundingLines": 15,
 }
