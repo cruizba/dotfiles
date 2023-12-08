@@ -86,6 +86,7 @@ function install_vscode() {
     mkdir -p ~/.config/Code/User
     # Copy settings.json
     cp .config/Code/User/settings.json ~/.config/Code/User/settings.json
+    cp .config/Code/User/keybindings.json ~/.config/Code/User/keybindings.json
 
     # Replace home directory
     sed -i "s|ENV_HOME|$HOME|g" ~/.config/Code/User/settings.json
