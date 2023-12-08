@@ -1,0 +1,80 @@
+{
+    "workbench.colorTheme": "monokai-charcoal (gray)",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineNumbers": "relative",
+    "languageToolLinter.diagnosticSeverity": "information",
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.validate": false,
+    "languageTool.enabled": true,
+    "languageTool.language": "en",
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.highlightStyle": "a11y-dark.css",
+    "markdown-pdf.scale": 0.7,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "editor.fontFamily": "'Cascadia Code PL', 'Droid Sans Mono', 'monospace', monospace",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "debug.autoExpandLazyVariables": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "'UbuntuMono Nerd Font'",
+    "terminal.integrated.fontSize": 16,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.linux": "${env.HOME}/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.kubectl-path.linux": "${env.HOME}/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.helm-path.linux": "${env.HOME}/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.minikube-show-information-expiration": "2023-09-25T19:48:00.216Z"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "java.jdt.ls.java.home": "${env.HOME}/.sdkman/candidates/java/21-open",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "${env.HOME}/.sdkman/candidates/java/11.0.12-open",
+            "default":  true
+        }
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "java.eclipse.downloadSources": true,
+    "java.maven.downloadSources": true,
+    "vim.handleKeys": {
+        "<C-p>": false
+    },
+}

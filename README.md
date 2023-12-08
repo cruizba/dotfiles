@@ -23,3 +23,8 @@ Common dotfiles for my development environment.
 - rofi (Application launcher)
 - feh (Wallpaper)
 - Nerd fonts
+- Cascadia Code font
+
+# TODO
+
+[] Installation script
