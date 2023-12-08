@@ -1,15 +1,15 @@
 [
     {
-        "key":     "ctrl+`",
+        "key": "ctrl+`",
         "command": "workbench.action.terminal.focus"
     },
     {
-        "key":     "ctrl+`",
+        "key": "ctrl+`",
         "command": "workbench.action.focusActiveEditorGroup",
-        "when":    "terminalFocus"
+        "when": "terminalFocus"
     },
     {
-        "key":     "ctrl+m",
+        "key": "ctrl+m",
         "command": "workbench.files.action.focusFilesExplorer",
     }
 ]
