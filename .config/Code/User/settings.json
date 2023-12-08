@@ -55,6 +55,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "terminal.integrated.fontFamily": "'UbuntuMono Nerd Font'",
   "terminal.integrated.fontSize": 16,
   "vs-kubernetes": {
@@ -118,7 +121,24 @@
       "commands": ["workbench.view.explorer"]
     }
   ],
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  // Navigate UP and DOWN by 15 lines
+  // https://github.com/VSCodeVim/Vim/issues/5303#issuecomment-1235079984
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+      "<C-d>"
+      ],
+      "after": [
+        "1","5","g","j","z","z",
+      ]
+    },
+    {
+      "before": [
+        "<C-u>"
+      ],
+      "after": [
+        "1","5","g","k","z","z"
+      ]
+    },
+  ],
 }
