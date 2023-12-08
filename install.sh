@@ -87,6 +87,8 @@ function install_vscode() {
     # Copy settings.json
     cp .config/Code/User/settings.json ~/.config/Code/User/settings.json
 
+    # Replace home directory
+    sed -i "s|ENV_HOME|$HOME|g" ~/.config/Code/User/settings.json
 }
 
 install_vscode
