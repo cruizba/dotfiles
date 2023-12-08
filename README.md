@@ -22,3 +22,4 @@ Common dotfiles for my development environment.
 - arandr (Screen configuration)
 - rofi (Application launcher)
 - feh (Wallpaper)
+- Nerd fonts
