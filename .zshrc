@@ -281,6 +281,8 @@ dexec() {
 
 # Default editor
 export EDITOR="$(which code)"
+# Defaults to VSCode for git commit messages
+git config --global core.editor "code --wait"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
