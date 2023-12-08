@@ -20,7 +20,5 @@ Common dotfiles for my development environment.
 - blueman (Bluetooth manager)
 - autorandr (Automatic screen configuration)
 - arandr (Screen configuration)
-- SDKMAN (Java SDK manager)
-- Node
-- Golang
 - rofi (Application launcher)
+- feh (Wallpaper)
