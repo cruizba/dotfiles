@@ -60,17 +60,17 @@
   "terminal.integrated.fontFamily": "'UbuntuMono Nerd Font'",
   "terminal.integrated.fontSize": 16,
   "vs-kubernetes": {
-    "vscode-kubernetes.minikube-path.linux": "/home/carlos/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
-    "vscode-kubernetes.kubectl-path.linux": "/home/carlos/.local/state/vs-kubernetes/tools/kubectl/kubectl",
-    "vscode-kubernetes.helm-path.linux": "/home/carlos/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path.linux": "{{ENV_HOME}}/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.kubectl-path.linux": "{{ENV_HOME}}/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.helm-path.linux": "{{ENV_HOME}}/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
     "vs-kubernetes.minikube-show-information-expiration": "2023-09-25T19:48:00.216Z"
   },
   "go.toolsManagement.autoUpdate": true,
-  "java.jdt.ls.java.home": "/home/carlos/.sdkman/candidates/java/21-open",
+  "java.jdt.ls.java.home": "{{ENV_HOME}}/.sdkman/candidates/java/21-open",
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-11",
-      "path": "/home/carlos/.sdkman/candidates/java/11.0.12-open",
+      "path": "{{ENV_HOME}}/.sdkman/candidates/java/11.0.12-open",
       "default": true
     }
   ],
