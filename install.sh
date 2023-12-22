@@ -65,6 +65,7 @@ VSCODE_EXT=(
     "vscodevim.vim"
     "ybaumes.highlight-trailing-white-spaces"
     "yzane.markdown-pdf"
+    "teeseal.ayu-legacy"
 )
 
 

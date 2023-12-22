@@ -24,6 +24,7 @@ Common dotfiles for my development environment.
 - feh (Wallpaper)
 - Nerd fonts
 - Cascadia Code font
+- lxpolkit (Password prompt for GUI apps)
 
 # TODO
 
