@@ -1,4 +1,3 @@
-
 [colors]
 background = #1a1e23
 background-alt = #373B41
@@ -29,7 +28,7 @@ separator-foreground = ${colors.disabled}
 font-0 = JetBrainsMono Nerd Font;2
 
 modules-left = xworkspaces xwindow
-modules-right = filesystem pulseaudio memory cpu wlan date
+modules-right = filesystem pulseaudio memory cpu wlan battery date
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -144,9 +143,9 @@ pseudo-transparency = true
 [module/battery]
 type = internal/battery
 
-full-at = 98
-battery = BAT1
-adapter = ACAD
+full-at = 99
+battery = BAT0
+adapter = AC0
 poll-interval = 2
 time-format = %H:%M
 
